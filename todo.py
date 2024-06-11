@@ -15,7 +15,7 @@ def removetask():
         listbox.delete(selectedtaskindex)
         messagebox.showwarning('Warning',"Task deleted")
     else:
-        messagebox.showwarning("Warning","Please select a task to remove")
+        messagebox.showwarning("Warning","Please select your task to remove")
  
 def clearlist():
     listbox.delete(0,END)
