@@ -25,7 +25,7 @@ root=Tk()
 root.title("To-Do List")
 root.geometry("600x600")
 root.resizable(False,False)
-root.configure(background="orange")
+root.configure(background="liht blue")
 
 entry=Entry(root, width=25)
 
